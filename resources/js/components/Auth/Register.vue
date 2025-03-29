@@ -28,11 +28,11 @@
             />
             <button
                 type="submit"
+                style="cursor: pointer;"
                 class="w-full bg-blue-500 text-white py-2 rounded flex justify-center items-center"
             >
                 <span
                     v-if="loading"
-                    style="cursor: pointer;"
                     class="animate-spin border-2 border-white border-t-transparent rounded-full w-5 h-5"
                 ></span>
                 <span v-else>Зарегистрироваться</span>
